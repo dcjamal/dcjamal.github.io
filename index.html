@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Food Page</title>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Webfonts -->
+        <link rel="stylesheet" href="fonts/fonts.css" />
+
+        <!-- Font Awesome's Free CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+        <!-- Modernizr -->
+        <script src="js/modernizr.js"></script> 
+
+    </head>
+    <body>
+
+
+        <div class="wrapper">
+            <div id="home" class="video-full-width">
+                <div class="dt-sc-video-container">
+                    <video id="video" class="dt-sc-video dt-sc-fillWidth" poster="img/video-poster.png" loop="" muted="" autoplay="" src="img/dci.mp4"></video>
+                </div>
+                <div class="overlay-pattern"></div>
+                <div class="overlay"></div>
+                <div class="banner-content">
+                    <div class="video-text zoomIn">
+                        <div class="banner-content">
+                            <div class="video-text zoomIn">
+                                <div class="hero-content" style="position: relative;">
+                                    <div class="hero-content-center">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="hero-col">
+                                                        <h1>I am <span>Jemil</span></h1>
+                                                        <h2>I am <span>Jemil</span></h2>
+                                                        <h3 class="cd-headline clip">
+                                                            <span class="cd-words-wrapper">
+                                                                <b class="is-visible">I am experienced</b>
+                                                                <b>web developer</b>
+                                                                <b>web designer</b>
+                                                                <b>Get my best services</b>
+                                                            </span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    var video = document.getElementById('video');
+                    console.log(video);
+                    function toggleMute() {
+                        video.muted = !video.muted;
+                    }
+                </script>
+
+                <div class="top-content-bottom">
+
+
+                    <div class="scroll-down">
+                        <a href="#" class="volume-icon unmuted" onclick="toggleMute();">
+                            <i class="fas fa-volume-mute"></i>
+                            <i class="fas fa-volume-up hide"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- JavaScript Inckuded -->
+
+        <!-- Functions for Init the JavaScript -->
+        <script src="js/functions.js"></script>
+
+        <!-- Animated Headlines  -->
+        <script src="js/main.js"></script>
+    </body>
+</html>  
